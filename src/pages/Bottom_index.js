@@ -5,7 +5,7 @@ import { db } from "../db";
 import { Link } from 'react-router-dom';
 import { Buttonlike } from '../components/Buttonlike.js';
 import { useEffect, useState } from "react";
-import { PlayIndex } from '../components/PlayIndex.js';
+import { PlayIndex } from 'src/components/PlayIndex.js';
 
 
 export const Bottom = () => {

@@ -14,21 +14,21 @@ const Login = () => {
 
     navigate('/'); // Điều hướng về trang chủ
 
-    const email = event.email.value;
-    const password = event.password.value;
+    // const email = event.email.value;
+    // const password = event.password.value;
 
-    if(email && password) {
-      signInWithEmailAndPassword(authFirebase, email, password)
-        .then((userCredential) => {
-          const user = userCredential.user;
-          if(user) {
-            navigate('/');
-          }
-        })
-        .catch((error) => {
-          console.log(error);
-        });
-    }
+    // if(email && password) {
+    //   signInWithEmailAndPassword(authFirebase, email, password)
+    //     .then((userCredential) => {
+    //       const user = userCredential.user;
+    //       if(user) {
+    //         navigate('/');
+    //       }
+    //     })
+    //     .catch((error) => {
+    //       console.log(error);
+    //     });
+    // }
    };
    
 
