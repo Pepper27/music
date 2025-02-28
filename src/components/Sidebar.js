@@ -11,7 +11,7 @@ import Logo from '../image/Logo.png';
 export const Sidebar = () => {
   return (
     <aside className='aside'>
-      <img src={Logo}/>
+      <img src={Logo} alt=""/>
       <ul>
         <li><Link to="/trangchu"><FaHouse /><p >Trang Chủ</p></Link></li>
         <li><Link to="/list_type"><FaMusic />Danh Mục Bài Hát</Link></li>

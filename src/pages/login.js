@@ -4,7 +4,6 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 // import { authFirebase } from "@/app/db";
 import { db } from "../db";
-import { signInWithEmailAndPassword } from "firebase/auth";
 
 const Login = () => {
   const navigate = useNavigate(); // Dùng useNavigate để điều hướng

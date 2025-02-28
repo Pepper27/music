@@ -25,7 +25,7 @@ export const Singer = () => {
                 {
                     arraySinger.map(item => (
                         <div className="box">
-                            <img src={item.image} />
+                            <img src={item.image} alt=""/>
                             <h2 >{item.title}</h2>
                             <p >{item.description}</p>
                         </div>

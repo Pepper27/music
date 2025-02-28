@@ -48,7 +48,7 @@ export const Search = () => {
                                     <Link to={`/detail_song/${item.keysong}`} className='box' >
                                         <div className='left'>
                                             <FaPlay />
-                                            <img src={item.img} />
+                                            <img src={item.img} alt=""/>
                                             <h2>{item.title}</h2>
                                         </div>
                                         <div className='mid'>
