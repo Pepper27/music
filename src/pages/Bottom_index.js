@@ -3,11 +3,10 @@ import left_sec1 from '../image/left_sec1.png';
 import { ref, onValue } from "firebase/database";
 import { db } from "../db";
 import { Link } from 'react-router-dom';
-import { FaPlay } from "react-icons/fa";
-import { Buttonplay } from '../components/Buttonplay.js';
 import { Buttonlike } from '../components/Buttonlike.js';
 import { useEffect, useState } from "react";
-import { Playindex} from '../components/Playindex.js';
+import { PlayIndex } from '../components/PlayIndex.js';
+
 
 export const Bottom = () => {
     const [arraytop, setArraytop] = useState([]);
@@ -115,7 +114,7 @@ export const Bottom = () => {
                                                 <p>{item.listen.toLocaleString()} lượt nghe</p>
                                             </div>
                                             <div className='button'>
-                                                <Playindex item={item}/>
+                                                <PlayIndex item={item}/>
                                                 <Buttonlike />
                                             </div>
                                         </div>

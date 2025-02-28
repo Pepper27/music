@@ -1,6 +1,6 @@
 import { FaPlay } from "react-icons/fa";
 
-export const Playindex = ({ item }) => {
+export const PlayIndex = ({ item }) => {
     const lieuClick = () => {
         const MusicPlay = document.querySelector(".MusicPlay")
         if (MusicPlay) {
