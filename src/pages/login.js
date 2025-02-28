@@ -2,8 +2,9 @@
 "use client"
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-// import { authFirebase } from "@/app/db";
-import { db } from "../db";
+import { authFirebase } from "./firebase";
+
+import { signInWithEmailAndPassword } from 'firebase/auth/web-extension';
 
 const Login = () => {
   const navigate = useNavigate(); // Dùng useNavigate để điều hướng
@@ -13,21 +14,21 @@ const Login = () => {
 
     navigate('/'); // Điều hướng về trang chủ
 
-  //   const email = event.email.value;
-  //   const password = event.password.value;
+    const email = event.email.value;
+    const password = event.password.value;
 
-  //   if(email && password) {
-  //     signInWithEmailAndPassword(authFirebase, email, password)
-  //       .then((userCredential) => {
-  //         const user = userCredential.user;
-  //         if(user) {
-  //           navigate('/');
-  //         }
-  //       })
-  //       .catch((error) => {
-  //         console.log(error);
-  //       });
-  //   }
+    if(email && password) {
+      signInWithEmailAndPassword(authFirebase, email, password)
+        .then((userCredential) => {
+          const user = userCredential.user;
+          if(user) {
+            navigate('/');
+          }
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    }
    };
    
 
