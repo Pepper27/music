@@ -1,0 +1,121 @@
+{
+  "categories": [
+    null,
+    {
+      "description": "Tổng hợp nhạc Nhạc trẻ mới nhất",
+      "image": "https://backend.daca.vn/assets/images/nhac-tre.jpg",
+      "title": "Nhạc trẻ"
+    },
+    {
+      "description": "Tổng hợp nhạc Bolero mới nhất",
+      "image": "https://backend.daca.vn/assets/images/bolero.jpg",
+      "title": "Bolero"
+    },
+    {
+      "description": "Tổng hợp nhạc Remix mới nhất",
+      "image": "https://backend.daca.vn/assets/images/remix.jpg",
+      "title": "Remix"
+    },
+    {
+      "description": "Tổng hợp nhạc Hip-Hop mới nhất",
+      "image": "https://backend.daca.vn/assets/images/hip-hop.jpg",
+      "title": "Hip-Hop"
+    },
+    {
+      "description": "Tổng hợp nhạc Latin mới nhất",
+      "image": "https://backend.daca.vn/assets/images/latin.jpg",
+      "title": "Latin"
+    },
+    {
+      "description": "Tổng hợp nhạc Acoustic mới nhất",
+      "image": "https://backend.daca.vn/assets/images/acoustic.jpg",
+      "title": "Acoustic"
+    },
+    {
+      "description": "Tổng hợp nhạc Rock mới nhất",
+      "image": "https://backend.daca.vn/assets/images/rock.jpg",
+      "title": "Rock"
+    }
+  ],
+  "singers": [
+    null,
+    {
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "image": "https://backend.daca.vn/assets/images/tang-duy-tan.jpg",
+      "title": "Tăng Duy Tân"
+    },
+    {
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "image": "https://backend.daca.vn/assets/images/thanh-dat.jpg",
+      "title": "Thành Đạt"
+    },
+    {
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "image": "https://backend.daca.vn/assets/images/cao-thai-son.jpg",
+      "title": "Cao Thái Sơn"
+    },
+    {
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "image": "https://backend.daca.vn/assets/images/tlong.jpg",
+      "title": "TLong"
+    },
+    {
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "image": "https://backend.daca.vn/assets/images/nal.jpg",
+      "title": "Nal"
+    }
+  ],
+  "songs": [
+    null,
+    {
+      "audio": "https://backend.daca.vn/assets/audios/cat-doi-noi-sau.mp3",
+      "categoryId": "1",
+      "image": "https://backend.daca.vn/assets/images/cat-doi-noi-sau.jpg",
+      "listen": 24500,
+      "like": "true",
+      "lyric": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "singerId": [
+        "1",
+        "3"
+      ],
+      "title": "Cắt Đôi Nỗi Sầu"
+    },
+    {
+      "audio": "https://backend.daca.vn/assets/audios/ngay-mai-nguoi-ta-lay-chong.mp3",
+      "categoryId": "2",
+      "image": "https://backend.daca.vn/assets/images/ngay-mai-nguoi-ta-lay-chong.jpg",
+      "listen": 20500,
+      "like": "true",
+      "lyric": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "singerId": [
+        "2"
+      ],
+      "title": "Ngày Mai Người Ta Lấy Chồng"
+    },
+    {
+      "audio": "https://backend.daca.vn/assets/audios/tat-ca-hoac-khong-la-gi-ca.mp3",
+      "categoryId": "3",
+      "image": "https://backend.daca.vn/assets/images/tat-ca-hoac-khong-la-gi-ca.jpg",
+      "listen": 18800,
+      "like": "false",
+      "lyric": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "singerId": [
+        "3"
+      ],
+      "title": "Tất Cả Hoặc Không Là Gì Cả"
+    },
+    {
+      "audio": "https://backend.daca.vn/assets/audios/ruou-mung-hoa-nguoi-dung.mp3",
+      "categoryId": "4",
+      "image": "https://backend.daca.vn/assets/images/ruou-mung-hoa-nguoi-dung.jpg",
+      "listen": 22800,
+      "like": "false",
+      "lyric": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "singerId": [
+        "4",
+        "3"
+      ],
+      "title": "Rượu Mừng Hóa Người Dưng"
+    }
+  ]
+}
